@@ -242,7 +242,7 @@
             // 
             // txtStreetMasterKey
             // 
-            this.txtStreetMasterKey.Location = new System.Drawing.Point(274, 28);
+            this.txtStreetMasterKey.Location = new System.Drawing.Point(271, 28);
             this.txtStreetMasterKey.Name = "txtStreetMasterKey";
             this.txtStreetMasterKey.Size = new System.Drawing.Size(122, 20);
             this.txtStreetMasterKey.TabIndex = 11;
