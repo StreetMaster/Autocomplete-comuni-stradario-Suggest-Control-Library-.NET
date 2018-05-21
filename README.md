@@ -1,5 +1,5 @@
-# Comuni italiani e stradario - Controlli DotNet
-## Libreri di controlli Suggest DotNet
+# Comuni italiani e stradario - Control Library DotNet
+## Control Library Suggest DotNet
 Comuni italiani e stradario. Soluzione C# per l'utilizzo del della libreria di controlli autocomplete del servizio SUGGEST.
 
 ### Ambiente di sviluppo
