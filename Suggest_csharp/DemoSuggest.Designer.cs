@@ -183,7 +183,7 @@
             this.txtSuggestIndirizzo.Location = new System.Drawing.Point(18, 144);
             this.txtSuggestIndirizzo.Name = "txtSuggestIndirizzo";
             this.txtSuggestIndirizzo.Size = new System.Drawing.Size(319, 20);
-            this.txtSuggestIndirizzo.StreetMasterKey = "jgeTBNPjnQ";
+            this.txtSuggestIndirizzo.StreetMasterKey = "Inserire la chiave StreetMaster";
             this.txtSuggestIndirizzo.SuggestTownLinked = "txtSuggestComune";
             this.txtSuggestIndirizzo.TabIndex = 9;
             this.txtSuggestIndirizzo.StreetSelect += new System.EventHandler<SuggestControl.SuggestStreet.SelectStreetEventArgs>(this.txtSuggestIndirizzo_StreetSelect);
@@ -194,7 +194,7 @@
             this.txtSuggestComune.Location = new System.Drawing.Point(18, 32);
             this.txtSuggestComune.Name = "txtSuggestComune";
             this.txtSuggestComune.Size = new System.Drawing.Size(319, 20);
-            this.txtSuggestComune.StreetMasterKey = "jgeTBNPjnQ";
+            this.txtSuggestComune.StreetMasterKey = "Inserire la chiave StreetMaster";
             this.txtSuggestComune.TabIndex = 8;
             this.txtSuggestComune.TownOutput = SuggestControl.Data.DataUtil.TownOutputEnum.All;
             this.txtSuggestComune.TownSelect += new System.EventHandler<SuggestControl.SelectTownEventArgs>(this.txtSuggestComune_TownSelect);
