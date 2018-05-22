@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SuggestControl">
+    <Reference Include="SuggestControl, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Suggest_lib\SuggestControl.dll</HintPath>
     </Reference>
     <Reference Include="System" />

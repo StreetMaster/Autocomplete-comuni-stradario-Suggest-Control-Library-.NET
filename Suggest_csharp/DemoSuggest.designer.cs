@@ -84,7 +84,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 87);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(493, 236);
+            this.groupBox1.Size = new System.Drawing.Size(493, 354);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
@@ -196,7 +196,6 @@
             this.txtSuggestComune.Size = new System.Drawing.Size(319, 20);
             this.txtSuggestComune.StreetMasterKey = "Inserire la chiave StreetMaster";
             this.txtSuggestComune.TabIndex = 8;
-            this.txtSuggestComune.TownOutput = SuggestControl.Data.DataUtil.TownOutputEnum.All;
             this.txtSuggestComune.TownSelect += new System.EventHandler<SuggestControl.SelectTownEventArgs>(this.txtSuggestComune_TownSelect);
             this.txtSuggestComune.TextChanged += new System.EventHandler(this.txtSuggestComune_TextChanged);
             // 
@@ -246,11 +245,12 @@
             this.txtStreetMasterKey.Name = "txtStreetMasterKey";
             this.txtStreetMasterKey.Size = new System.Drawing.Size(122, 20);
             this.txtStreetMasterKey.TabIndex = 11;
+            this.txtStreetMasterKey.TextChanged += new System.EventHandler(this.txtStreetMasterKey_TextChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 331);
+            this.label9.Location = new System.Drawing.Point(12, 444);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(76, 13);
             this.label9.TabIndex = 18;
@@ -259,7 +259,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(12, 344);
+            this.label11.Location = new System.Drawing.Point(12, 457);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(267, 13);
             this.label11.TabIndex = 20;
@@ -268,7 +268,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(285, 344);
+            this.linkLabel1.Location = new System.Drawing.Point(285, 457);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(196, 13);
             this.linkLabel1.TabIndex = 21;
@@ -280,7 +280,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(519, 369);
+            this.ClientSize = new System.Drawing.Size(519, 484);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
