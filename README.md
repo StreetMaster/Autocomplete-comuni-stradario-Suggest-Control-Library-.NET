@@ -21,8 +21,8 @@ Il servizio ha una copertura a livello di strada su tutto il territorio nazional
 La base dati di riferimento è costantemente aggiornata con le variazioni amministrative e postali ufficiali.
 
 ### User control
-  - SuggestTown : controllo textbox con funzione di autocompletamente del comune
-  - SuggestStreet: controllo textbox con funzione di autocompletamente dell'indirizzo
+  - SuggestTown : controllo textbox con funzione di autocompletamento del comune
+  - SuggestStreet: controllo textbox con funzione di autocompletamento dell'indirizzo
 
 ### Ouput
 L'autocompletamento del comune si attiva in automatico appena l'utente comincia a scrivere nel textbox
