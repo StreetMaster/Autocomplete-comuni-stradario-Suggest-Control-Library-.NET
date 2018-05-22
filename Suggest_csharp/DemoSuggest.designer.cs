@@ -186,7 +186,7 @@
             this.txtSuggestIndirizzo.StreetMasterKey = "Inserire la chiave StreetMaster";
             this.txtSuggestIndirizzo.SuggestTownLinked = "txtSuggestComune";
             this.txtSuggestIndirizzo.TabIndex = 9;
-            this.txtSuggestIndirizzo.StreetSelect += new System.EventHandler<SuggestControl.SuggestStreet.SelectStreetEventArgs>(this.txtSuggestIndirizzo_StreetSelect);
+            this.txtSuggestIndirizzo.StreetSelected += new System.EventHandler<SuggestControl.SelectStreetEventArgs>(this.txtSuggestIndirizzo_StreetSelected);
             // 
             // txtSuggestComune
             // 
@@ -196,7 +196,7 @@
             this.txtSuggestComune.Size = new System.Drawing.Size(319, 20);
             this.txtSuggestComune.StreetMasterKey = "Inserire la chiave StreetMaster";
             this.txtSuggestComune.TabIndex = 8;
-            this.txtSuggestComune.TownSelect += new System.EventHandler<SuggestControl.SelectTownEventArgs>(this.txtSuggestComune_TownSelect);
+            this.txtSuggestComune.TownSelected += new System.EventHandler<SuggestControl.SelectTownEventArgs>(this.txtSuggestComune_TownSelected);
             this.txtSuggestComune.TextChanged += new System.EventHandler(this.txtSuggestComune_TextChanged);
             // 
             // cbSoloComuni

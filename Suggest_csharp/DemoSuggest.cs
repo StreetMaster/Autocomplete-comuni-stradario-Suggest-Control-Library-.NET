@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using SuggestControl.Data;
+using SuggestControl;
 
 namespace Suggest_csharp
 {
@@ -20,10 +13,10 @@ namespace Suggest_csharp
 
         private void cbSoloComuni_CheckedChanged(object sender, EventArgs e)
         {
-            txtSuggestComune.TownOutput = cbSoloComuni.Checked ? DataUtil.TownOutputEnum.Town : DataUtil.TownOutputEnum.All;
+            txtSuggestComune.TownOutput = cbSoloComuni.Checked ? TownOutputEnum.Town : TownOutputEnum.All;
         }
 
-        private void txtSuggestComune_TownSelect(object sender, SuggestControl.SelectTownEventArgs e)
+        private void txtSuggestComune_TownSelected(object sender, SelectTownEventArgs e)
         {
             txtProvincia.Text = e.Town.Province;
             txtCap.Text = e.Town.Zip;
@@ -33,7 +26,7 @@ namespace Suggest_csharp
      
         }
 
-        private void txtSuggestIndirizzo_StreetSelect(object sender, SuggestControl.SuggestStreet.SelectStreetEventArgs e)
+        private void txtSuggestIndirizzo_StreetSelected(object sender, SelectStreetEventArgs e)
         {
             txtCap.Text = e.Street.Zip;
             txtParticella.Text = e.Street.StreetType;
